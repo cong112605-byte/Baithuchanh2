@@ -78,7 +78,6 @@ void Xuat(struct List l) {
         printf("\nDiem 1: %.2f", p->infor.d1);
         printf("\nDiem 2: %.2f", p->infor.d2);
         printf("\nDiem 3: %.2f", p->infor.d3);
-        printf("\n-------------------");
 
         p = p->link;
     }
